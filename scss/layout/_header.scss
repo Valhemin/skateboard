@@ -1,0 +1,41 @@
+.header {
+   background-color: $color-primary;
+   display: flex;
+   transform: translateY(3rem);
+   &__logo {
+      margin: 0 6rem;
+      padding: 1rem 0.8rem 0.4rem;
+      > img {
+         height: 8rem;
+      }
+   }
+   &__menu {
+      display: flex;
+      margin-left: 6rem;
+      &--list {
+         display: flex;
+         align-items: center;
+         & > li {
+            list-style: none;
+            transition: all 0.4s;
+            &:hover a {
+               color: $color-primary-y;
+               transform: translateY(-0.2rem) scale(1.1);
+            }
+            &:active a {
+               transform: translateY(-0.1rem);
+            }
+         }
+      }
+      &--link {
+         display: inline-block;
+         text-decoration: none;
+         text-transform: uppercase;
+         color: $color-white;
+         font-family: "SVN-New Athletic M54";
+         font-weight: 500;
+         font-size: 2rem;
+         padding: 0 1.4rem;
+      }
+   }
+}

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'BoardMarker';
+    src: url('BoardMarker.eot');
+    src: url('BoardMarker.eot?#iefix') format('embedded-opentype'),
+        url('BoardMarker.woff2') format('woff2'),
+        url('BoardMarker.woff') format('woff'),
+        url('BoardMarker.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-New Athletic M54';
+    src: url('SVN-NewAthleticM54.eot');
+    src: url('SVN-NewAthleticM54.eot?#iefix') format('embedded-opentype'),
+        url('SVN-NewAthleticM54.woff2') format('woff2'),
+        url('SVN-NewAthleticM54.woff') format('woff'),
+        url('SVN-NewAthleticM54.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Corbel';
+    src: url('Corbel.eot');
+    src: url('Corbel.eot?#iefix') format('embedded-opentype'),
+        url('Corbel.woff2') format('woff2'),
+        url('Corbel.woff') format('woff'),
+        url('Corbel.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

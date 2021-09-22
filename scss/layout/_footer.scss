@@ -1,0 +1,10 @@
+.footer {
+   background-color: $color-primary;
+   display: flex;
+   justify-content: space-around;
+   & div {
+      padding: 0.6rem 0;
+      font-size: 1.8rem;
+      color: #818181;
+   }
+}

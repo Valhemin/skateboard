@@ -1,0 +1,32 @@
+.product {
+   margin-top: 1rem;
+   padding: 1.2rem 1rem;
+   box-shadow: 0 0.1rem 1rem rgba(black, 0.2);
+   border-radius: 1rem;
+   overflow: hidden;
+   transition: all 0.4s;
+   &:hover {
+      transform: translateY(-0.5rem);
+   }
+   &:hover &__price {
+      transform: translateX(0.3rem) scale(1.2);
+   }
+   &__img {
+      & img {
+         width: 100%;
+         height: auto;
+      }
+   }
+   &__title {
+      color: $color-title-product;
+      font-weight: 600;
+      line-height: 1.6rem;
+   }
+   &__price {
+      margin-left: 0.8rem;
+      margin-bottom: 2rem;
+      color: $color-price-product;
+      font-size: 2rem;
+      font-weight: 600;
+   }
+}

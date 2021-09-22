@@ -1,0 +1,45 @@
+.section-home {
+   display: flex;
+   margin-top: 3rem;
+   padding: 8rem 6rem;
+   &__primary {
+      flex: 1;
+      &--title {
+         text-transform: uppercase;
+         text-shadow: 0 0 0.3rem $color-t-b, 0 0 0.3rem $color-t-b,
+            0 0 0.3rem $color-t-b, 0 0 0.3rem $color-t-b, 0 0 0.3rem $color-t-b;
+         font-family: "BoardMarker";
+         &.primary__title-1 {
+            font-size: 10rem;
+            line-height: 8rem;
+         }
+         &.primary__title-2 {
+            margin: 1rem 0 2rem;
+            font-size: 6rem;
+            line-height: 6rem;
+         }
+      }
+      &--des {
+         font-size: 3rem;
+         line-height: 3.4rem;
+         color: $color-t-b;
+      }
+      &--btn {
+         margin-top: 4rem;
+         padding: 0.6rem 3rem;
+         font-size: 2rem;
+         font-weight: 500;
+         border-radius: 0.8rem;
+      }
+   }
+   &__banner {
+      flex: 1;
+      flex-wrap: wrap;
+      &--img {
+         object-fit: cover;
+         width: 46%;
+         height: 50%;
+         margin: 0.2rem 0.4rem;
+      }
+   }
+}

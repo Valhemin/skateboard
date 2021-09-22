@@ -1,0 +1,17 @@
+.btn {
+   display: inline-block;
+   cursor: pointer;
+   background-color: $color-primary-btn;
+   color: $color-t-b;
+   border: none;
+   outline: none;
+   text-decoration: none;
+   position: relative;
+   transition: all 0.4s;
+   &:hover {
+      transform: translateY(-0.3rem) scale(1.2);
+   }
+   &:active {
+      transform: translateY(0.1rem);
+   }
+}

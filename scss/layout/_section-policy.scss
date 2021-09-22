@@ -1,0 +1,25 @@
+.section-policy {
+   margin-top: 3rem;
+   padding: 4rem 14rem;
+   color: $color-t-b;
+   &__title {
+      text-align: center;
+      font-size: 2.2rem;
+      font-weight: 600;
+      letter-spacing: 0.2rem;
+      &--sub {
+         margin: 2rem 0 2rem -2rem;
+         font-size: 1.8rem;
+         font-weight: 550;
+         color: red;
+      }
+   }
+   &__content {
+      margin-left: 2rem;
+      & ol {
+         & li {
+            line-height: 3rem;
+         }
+      }
+   }
+}

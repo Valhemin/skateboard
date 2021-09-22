@@ -1,0 +1,55 @@
+.form {
+   margin: 6rem 0 30rem;
+   text-align: center;
+   color: $color-t-b;
+   &__title {
+      margin: 0 auto;
+      padding-bottom: 1rem;
+      width: 30%;
+      font-size: 2rem;
+      font-weight: 700;
+      border-bottom: 0.1rem solid #ccc;
+   }
+   &__list {
+      position: relative;
+      left: 44%;
+      transform: translateX(-50%);
+      margin-top: 2rem;
+      width: 30%;
+      text-align: right;
+      list-style: none;
+      & li {
+         height: 5rem;
+      }
+   }
+   &__input {
+      width: 50%;
+      height: 3rem;
+      margin-left: 1rem;
+      padding-left: 1.2rem;
+      border-radius: 4rem;
+      &:focus {
+         width: 55%;
+      }
+   }
+   &__btn {
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      border-radius: 4rem;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+   }
+   &__link {
+      margin-top: 2rem;
+      & a {
+         color: #3571f8;
+         font-weight: 550;
+         transition: all 0.4s;
+         &:hover {
+            display: inline-block;
+            color: $color-primary-y;
+            transform: scale(1.1);
+         }
+      }
+   }
+}

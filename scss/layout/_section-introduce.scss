@@ -1,0 +1,21 @@
+.section-introduce {
+   margin-top: 4rem;
+   &__banner {
+      text-align: center;
+      & img {
+         object-fit: cover;
+         width: 86.66666%;
+         height: 60rem;
+      }
+   }
+   &__title {
+      margin-left: 15rem;
+      color: $color-t-b;
+      letter-spacing: 0.1rem;
+   }
+   &__content {
+      margin: 2rem 20rem;
+      width: 70%;
+      color: $color-t-b;
+   }
+}
