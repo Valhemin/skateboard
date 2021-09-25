@@ -1,7 +1,9 @@
 .form {
-   margin: 6rem 0 30rem;
+   margin: 4rem 0 2rem;
+   padding: 6rem 0 30rem;
    text-align: center;
    color: $color-t-b;
+   background-color: $color-primary-bg;
    &__title {
       margin: 0 auto;
       padding-bottom: 1rem;
@@ -15,7 +17,7 @@
       left: 44%;
       transform: translateX(-50%);
       margin-top: 2rem;
-      width: 30%;
+      width: 35%;
       text-align: right;
       list-style: none;
       & li {

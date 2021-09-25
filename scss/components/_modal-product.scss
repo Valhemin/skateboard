@@ -1,13 +1,46 @@
-.modal-prodcut {
+.modal-product {
    &__img {
       & img {
-         height: 3rem;
+         height: 100%;
+         transition-duration: 0.3s;
+         &:hover {
+            transform: scale(1.2);
+         }
       }
    }
-   &__title {
-   }
-   &__price {
-   }
-   &__btn {
+   &__content {
+      position: relative;
+      padding: 6rem 2rem 4rem;
+      width: 100%;
+      color: $color-t-b;
+      &--close {
+         position: absolute;
+         top: 3%;
+         right: 6%;
+         font-size: 2rem;
+         cursor: pointer;
+         &:hover {
+            opacity: 0.8;
+         }
+         &:active {
+            transform: translateY(0.2rem);
+         }
+      }
+      &--title {
+         width: 90%;
+         font-size: 3rem;
+      }
+      &--price {
+         font-size: 2rem;
+         color: $color-price-product;
+      }
+      &--btn {
+         display: inline-block;
+         margin-top: 2rem;
+         padding: 0.8rem 2rem;
+         text-transform: uppercase;
+         border-radius: 1rem;
+         transform: none;
+      }
    }
 }

@@ -1,10 +1,49 @@
 .footer {
-   background-color: $color-primary;
    display: flex;
    justify-content: space-around;
-   & div {
-      padding: 0.6rem 0;
-      font-size: 1.8rem;
-      color: #818181;
+   padding: 2rem 0 3rem;
+   background-color: #797979;
+   &__contact {
+      padding: 1.4rem;
+      border-radius: 0.4rem;
+      background-color: $color-primary;
+      &--title {
+         font-weight: 700;
+         text-transform: uppercase;
+      }
+      &--content {
+         margin-bottom: 0.8rem;
+         padding-left: 0.2rem;
+
+         & i {
+            margin-right: 0.6rem;
+            padding: 1rem;
+            font-size: 1.2rem;
+            border-radius: 4rem;
+            color: #292929;
+            background-color: #fff;
+         }
+         & span {
+            font-size: 1.4rem;
+            color: $color-t-w;
+         }
+      }
+      &--icon {
+         display: flex;
+         justify-content: space-around;
+         margin: 1rem;
+      }
+   }
+   &__title {
+      margin-top: 0.4rem;
+      font-size: 2rem;
+      font-weight: 700;
+      color: $color-white;
+      text-transform: uppercase;
+   }
+   &__coppyright {
+      padding: 1.4rem;
+      text-align: center;
+      background-color: $color-primary;
    }
 }

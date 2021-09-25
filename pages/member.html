@@ -4,6 +4,14 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+   />
       <link rel="stylesheet" href="../font/fonts.css" />
       <link rel="stylesheet" href="../style/grid.css" />
       <link rel="stylesheet" href="../style/main.css" />
@@ -49,71 +57,119 @@
                </ul>
             </div>
          </div>
-         <div class="member__form--sign">
-            <div class="form">
-               <div class="form__title">Đăng nhập</div>
-               <ul class="form__list">
-                  <li>
-                     <td>Tài khoản:</td>
-                     <td>
-                        <input type="text" class="form__input" placeholder="Tài khoản">
-                     </td>
-                  </li>
-                  <li>
-                     <td>Mật khẩu:</td>
-                     <td>
-                        <input type="password" name="pwd" class="form__input" placeholder="Mật khẩu">
-                     </td>
-                  </li>
-               </ul>
-               <div class="btn form__btn">Đăng nhập</div>
-               <div class="form__link" id="regist">
-                  <a href="#" >Đăng kí thành viên</a>
+         <div class="section-member">
+            <div class="member__form--sign">
+               <div class="form">
+                  <div class="form__title">Đăng nhập</div>
+                  <ul class="form__list">
+                     <li>
+                        <td>Tài khoản:</td>
+                        <td>
+                           <input type="text" class="form__input" placeholder="Tài khoản">
+                        </td>
+                     </li>
+                     <li>
+                        <td>Mật khẩu:</td>
+                        <td>
+                           <input type="password" name="pwd" class="form__input" placeholder="Mật khẩu">
+                        </td>
+                     </li>
+                  </ul>
+                  <div class="btn form__btn">Đăng nhập</div>
+                  <div class="form__link" id="regist">
+                     <a href="#" >Đăng kí thành viên</a>
+                  </div>
                </div>
-            </div>
             
-         </div>
-         <div class="member__form--regist">
-            <div class="form">
-               <div class="form__title">Đăng kí thành viên</div>
-               <ul class="form__list">
-                  <li>
-                     <td>Email:</td>
-                     <td>
-                        <input type="text" class="form__input" placeholder="Email">
-                     </td>
-                  </li>
-                  <li>
-                     <td>Tài khoản:</td>
-                     <td>
-                        <input type="text" class="form__input" placeholder="Tài khoản">
-                     </td>
-                  </li>
-                  <li>
-                     <td>Mật khẩu:</td>
-                     <td>
-                        <input type="password" name="pwd" class="form__input" placeholder="Mật khẩu">
-                     </td>
-                  </li>
-                  <li>
-                     <td>Nhập lại mật khẩu:</td>
-                     <td>
-                        <input type="password" name="re-pwd" class="form__input" placeholder="Nhập lại mật khẩu">
-                     </td>
-                  </li>
-               </ul>
-               <div class="btn form__btn">Đăng kí</div>
-               <div class="form__link" id="sign">
-                  <a href="#" >Đã có tài khoản !</a>
+            </div>
+            <div class="member__form--regist">
+               <div class="form">
+                  <div class="form__title">Đăng kí thành viên</div>
+                  <ul class="form__list">
+                     <li>
+                        <td>Email:</td>
+                        <td>
+                           <input type="text" class="form__input" placeholder="Email">
+                        </td>
+                     </li>
+                     <li>
+                        <td>Tài khoản:</td>
+                        <td>
+                           <input type="text" class="form__input" placeholder="Tài khoản">
+                        </td>
+                     </li>
+                     <li>
+                        <td>Mật khẩu:</td>
+                        <td>
+                           <input type="password" name="pwd" class="form__input" placeholder="Mật khẩu">
+                        </td>
+                     </li>
+                     <li>
+                        <td>Nhập lại mật khẩu:</td>
+                        <td>
+                           <input type="password" name="re-pwd" class="form__input" placeholder="Nhập lại mật khẩu">
+                        </td>
+                     </li>
+                  </ul>
+                  <div class="btn form__btn">Đăng kí</div>
+                  <div class="form__link" id="sign">
+                     <a href="#" >Đã có tài khoản !</a>
+                  </div>
                </div>
             </div>
          </div>
          <div class="footer">
-            <div>Duck Skateboard trên FB</div>
-            <div>LH: 0971620067</div>
+            <div class="footer__contact">
+               <div class="footer__contact--title">Liên hệ</div>
+               <div class="footer__contact--content">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Số 31 Ngõ 194 Đội Căn, Hà Nội</span>
+               </div>
+               <div class="footer__contact--content">
+                  <i class="fas fa-phone-alt"></i>
+                  <span>0987811351</span>
+               </div>
+               <div class="footer__contact--content">
+                  <i class="far fa-envelope"></i>
+                  <span>duckskateboard@gmail.com</span>
+               </div>
+               <div class="footer__contact--title">Liên kết với chúng tôi</div>
+               <ul class="u-footer-list footer__contact--icon">
+                  <li>
+                     <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fab fa-youtube-square"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                  </li>
+               </ul>
+            </div>
+            <ul class="u-footer-list footer__link">
+               <li class="footer__title">Liên Kết</li>
+               <li><a href="#">&#10146;Trang chủ</a></li>
+               <li><a href="#">&#10146;Sản phẩm</a></li>
+               <li><a href="#">&#10146;Giới thiệu</a></li>
+               <li><a href="#">&#10146;Chính sách</a></li>
+            </ul>
+            <ul class="u-footer-list footer__items">
+               <li class="footer__title">Sản phẩm</li>
+               <li><a href="#">&#10146;Ván Skateboard</a></li>
+               <li><a href="#">&#10146;Ván Cruiserboard</a></li>
+               <li><a href="#">&#10146;Ván Longboard</a></li>
+               <li><a href="#">&#10146;Ván Penny</a></li>
+               <li><a href="#">&#10146;Phụ kiện ván trượt</a></li>
+            </ul>
+         </div>
+         <div class="footer__coppyright">
+            Coppyright &#169; 2021 Duck Skateboard.
          </div>
       </div>
       </div>
-      <script src="../style/main.js"></script>
+      <script src="../style/member.js"></script>
    </body>
 </html>
